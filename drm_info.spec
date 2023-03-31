@@ -1,7 +1,7 @@
 Summary:	Small utility to dump info about DRM devices
 Name:		drm_info
 Version:	2.5.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Graphics
 URL:		https://gitlab.freedesktop.org/emersion/drm_info
