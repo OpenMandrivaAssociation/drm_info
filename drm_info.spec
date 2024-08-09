@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(scdoc)
 %{summary}.
 
 %prep
-%autosetup -p1
+%autosetup -n %{name}-v%{version} -p1
 
 %build
 %meson
