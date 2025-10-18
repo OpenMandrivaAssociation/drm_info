@@ -5,7 +5,7 @@ Release:	1
 License:	MIT
 Group:		Graphics
 URL:		https://gitlab.freedesktop.org/emersion/drm_info
-Source0:	%{url}/-/releases/v%{version}/downloads/%{name}-v%{version}.tar.gz
+Source0:	%{url}/-/releases/v%{version}/downloads/%{name}-%{version}.tar.gz
 BuildRequires:	meson >= 0.49.0
 BuildRequires:	pkgconfig(json-c)
 BuildRequires:	pkgconfig(libdrm) >= 2.4.113
@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(scdoc)
 %{summary}.
 
 %prep
-%autosetup -n %{name}-v%{version} -p1
+%autosetup -n %{name}-%{version} -p1
 
 %build
 %meson
