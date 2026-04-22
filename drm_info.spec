@@ -8,6 +8,7 @@ URL:		https://gitlab.freedesktop.org/emersion/drm_info
 Source0:	%{url}/-/releases/v%{version}/downloads/%{name}-%{version}.tar.gz
 BuildRequires:	meson >= 0.49.0
 BuildRequires:	pkgconfig(json-c)
+BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires:	pkgconfig(libdrm) >= 2.4.113
 BuildRequires:	pkgconfig(libpci)
 BuildRequires:	pkgconfig(scdoc)
